@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+.main{
+    background-color: greenyellow;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: yellow;
+    height: 40%;
+    width: 80%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boxP{
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+}
+.get{
+    margin-top: 2rem;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
